@@ -31,7 +31,7 @@ For the production environment, uncomment the Azure URL and comment out the loca
 
 ```javascript
 const api = axios.create({
-  baseURL: 'https://bearlab-backend-d9awbhgfe4c6abdq.southeastasia-01.azurewebsites.net/api',
+  baseURL: 'https://phop-backend-a9aga3e0b2d4gfdy.southeastasia-01.azurewebsites.net/',
   // baseURL: 'http://127.0.0.1:8000/api', // Local API
   headers: {
     'Content-Type': 'application/json',
