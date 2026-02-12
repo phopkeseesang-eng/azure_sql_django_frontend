@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL:  'https://phop-backend-a9aga3e0b2d4gfdy.southeastasia-01.azurewebsites.net/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://phop-backend-a9aga3e0b2d4gfdy.southeastasia-01.azurewebsites.net/api',
   // baseURL: 'http://127.0.0.1:8000/api', 
   headers: {
     'Content-Type': 'application/json',
